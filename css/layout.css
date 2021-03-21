@@ -1,0 +1,46 @@
+div {
+    border: 1px solid rgb(184, 176, 176);
+    background-color: rgb(230, 223, 223);
+    width: 100%;
+    text-align: center;
+    display:table;
+    
+}
+
+
+#a {
+    height:75px;
+    
+}
+
+#b {
+    height: 150px;
+}
+
+#c , #d {
+    height:125px;
+}
+
+
+.e , .f , .g , .h{
+    border: none ;
+    display: inline-block;
+    width: 50%;
+    height:250px;
+    text-align: center;
+
+  }
+
+  .e , .f , .g , .h p {
+    padding:10px 0;
+  }
+#i {
+    height:80px;
+}
+
+.alignV {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
