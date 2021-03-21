@@ -5,3 +5,12 @@ body {
     flex-flow: row;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width:768px) {
+    body {
+        width: 960px;
+        display: grid;
+        grid-template-columns: 200px repeat(4, 190px);
+        grid-template-rows: 100px 200px 250px 150px;
+    }
+}
