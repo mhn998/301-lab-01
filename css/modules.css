@@ -1,0 +1,30 @@
+@media(max-width:768px) {
+    #e p,
+    #f p,
+    #g p,
+    #h p {
+        padding: 120px 125px;
+    }
+}
+
+.alignV {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#e p {
+    padding: 120px 90px;
+}
+
+#f p {
+    padding: 120px 90px;
+}
+
+#g p {
+    padding: 120px 90px;
+}
+
+#h p {
+    padding: 120px 90px;
+}
