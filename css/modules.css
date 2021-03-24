@@ -3,7 +3,7 @@
     #f p,
     #g p,
     #h p {
-        padding: 120px 125px;
+        padding: 7.5rem 17.813rem;
     }
 }
 
@@ -14,17 +14,113 @@
 }
 
 #e p {
-    padding: 120px 90px;
+    padding: 7.5rem 5.625rem;
 }
 
 #f p {
-    padding: 120px 90px;
+    padding: 7.5rem 5.625rem;
 }
 
 #g p {
-    padding: 120px 90px;
+    padding: 7.5rem 5.625rem;
 }
 
 #h p {
-    padding: 120px 90px;
+    padding: 7.5rem 5.625rem;
+}
+
+#a {
+    background-color: greenyellow;
+}
+
+#b {
+    background-color: hotpink;
+}
+
+#c {
+    background-color: indianred;
+}
+
+#d {
+    background-color: indigo;
+}
+
+#e {
+    background-color: blue;
+}
+
+#f {
+    background-color: red;
+}
+
+#g {
+    background-color: seagreen;
+}
+
+#h {
+    background-color: springgreen;
+}
+
+#i {
+    background-color: violet;
+}
+
+@media (min-width:768px) {
+    #a {
+        background-color: tomato;
+    }
+    #b {
+        background-color: blueviolet;
+    }
+    #c {
+        background-color: cyan;
+    }
+    #d {
+        background-color: darkorange;
+    }
+    #e {
+        background-color: dimgray;
+    }
+    #f {
+        background-color: midnightblue;
+    }
+    #g {
+        background-color: olive;
+    }
+    #h {
+        background-color: turquoise;
+    }
+    #i {
+        background-color: steelblue;
+    }
+}
+
+@media (min-width:960px) {
+    #a {
+        background-color: yellow;
+    }
+    #b {
+        background-color: teal
+    }
+    #c {
+        background-color: whitesmoke;
+    }
+    #d {
+        background-color: rosybrown
+    }
+    #e {
+        background-color: slateblue
+    }
+    #f {
+        background-color: orchid
+    }
+    #g {
+        background-color: purple
+    }
+    #h {
+        background-color: beige
+    }
+    #i {
+        background-color: brown
+    }
 }

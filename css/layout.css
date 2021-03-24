@@ -4,16 +4,16 @@ div {
 }
 
 #a {
-    height: 75px;
+    height: 4.688rem;
 }
 
 #b {
-    height: 150px;
+    height: 9.375rem;
 }
 
 #c,
 #d {
-    height: 125px;
+    height: 7.813rem;
 }
 
 #e,
@@ -23,53 +23,53 @@ div {
     border: none;
     display: inline-block;
     width: 50%;
-    height: 250px;
+    height: 15.625rem;
     text-align: center;
 }
 
 #i {
-    height: 80px;
+    height: 5rem;
 }
 
 @media (min-width:768px) {
     #a {
-        height: 100px;
+        height: 6.25rem;
         grid-column: 1/span 6;
     }
     #b {
-        height: 600px;
+        height: 37.5rem;
         grid-column: 1/2;
     }
     #c {
-        height: 200px;
+        height: 12.5rem;
         grid-column: 2/4;
     }
     #d {
-        height: 200px;
+        height: 12.5rem;
         grid-column: 4/6;
     }
     #e {
-        height: 250px;
+        height: 15.625rem;
         width: 100%;
         grid-column-start: 2;
     }
     #f {
-        height: 250px;
+        height: 15.625rem;
         width: 100%;
         grid-column-start: 3;
     }
     #g {
-        height: 250px;
+        height: 15.625rem;
         width: 100%;
         grid-column-start: 4;
     }
     #h {
-        height: 250px;
+        height: 15.625rem;
         width: 100%;
         grid-column-start: 5;
     }
     #i {
-        height: 150px;
+        height: 9.375rem;
         width: 100%;
         grid-column: 2 / span 6;
     }
