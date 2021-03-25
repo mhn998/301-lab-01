@@ -1,16 +1,13 @@
 body {
     width: 30rem;
-    margin: auto;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-@media screen and (min-width:768px) {
+@media only screen and (min-width:768px) {
     body {
         width: 60rem;
-        display: grid;
-        grid-template-columns: 12.5rem repeat(4, 11.875rem);
-        grid-template-rows: 6.25rem 12.5rem 15.625rem 9.375rem;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 }

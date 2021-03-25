@@ -1,126 +1,65 @@
-@media(max-width:768px) {
-    #e p,
-    #f p,
-    #g p,
-    #h p {
-        padding: 7.5rem 17.813rem;
-    }
-}
-
-.alignV {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#e p {
-    padding: 7.5rem 5.625rem;
-}
-
-#f p {
-    padding: 7.5rem 5.625rem;
-}
-
-#g p {
-    padding: 7.5rem 5.625rem;
-}
-
-#h p {
-    padding: 7.5rem 5.625rem;
-}
-
-#a {
+.a {
     background-color: greenyellow;
 }
 
-#b {
+.b {
     background-color: hotpink;
 }
 
-#c {
+.c {
     background-color: indianred;
 }
 
-#d {
+.d {
     background-color: indigo;
 }
 
-#e {
+.e {
     background-color: blue;
 }
 
-#f {
+.f {
     background-color: red;
 }
 
-#g {
+.g {
     background-color: seagreen;
 }
 
-#h {
+.h {
     background-color: springgreen;
 }
 
-#i {
+.i {
     background-color: violet;
 }
 
-@media (min-width:768px) {
-    #a {
+@media only screen and (min-width:768px) {
+    .a {
         background-color: tomato;
     }
-    #b {
+    .b {
         background-color: blueviolet;
     }
-    #c {
+    .c {
         background-color: cyan;
     }
-    #d {
+    .d {
         background-color: darkorange;
     }
-    #e {
+    .e {
         background-color: dimgray;
     }
-    #f {
+    .f {
         background-color: midnightblue;
     }
-    #g {
+    .g {
         background-color: olive;
     }
-    #h {
+    .h {
         background-color: turquoise;
     }
-    #i {
+    .i {
         background-color: steelblue;
-    }
-}
-
-@media (min-width:960px) {
-    #a {
-        background-color: yellow;
-    }
-    #b {
-        background-color: teal
-    }
-    #c {
-        background-color: whitesmoke;
-    }
-    #d {
-        background-color: rosybrown
-    }
-    #e {
-        background-color: slateblue
-    }
-    #f {
-        background-color: orchid
-    }
-    #g {
-        background-color: purple
-    }
-    #h {
-        background-color: beige
-    }
-    #i {
-        background-color: brown
     }
 }
