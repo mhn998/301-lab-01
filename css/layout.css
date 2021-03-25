@@ -1,76 +1,97 @@
-div {
-    width: 100%;
-    display: table;
-}
-
-#a {
-    height: 4.688rem;
-}
-
-#b {
-    height: 9.375rem;
-}
-
-#c,
-#d {
-    height: 7.813rem;
-}
-
-#e,
-#f,
-#g,
-#h {
-    border: none;
-    display: inline-block;
-    width: 50%;
-    height: 15.625rem;
+body>* {
+    background-color: green;
+    margin: 0;
     text-align: center;
+    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
-#i {
-    height: 5rem;
+.a {
+    height: 75px;
+    padding: 5.5% 0;
 }
 
-@media (min-width:768px) {
-    #a {
-        height: 6.25rem;
-        grid-column: 1/span 6;
+.b {
+    height: 150px;
+    padding: 13.5% 0;
+}
+
+.c {
+    height: 125px;
+    padding: 10% 0;
+}
+
+.d {
+    height: 125px;
+    padding: 10% 0;
+}
+
+.e,
+.f,
+.g,
+.h {
+    height: 250px;
+    padding: 23.5% 0;
+    width: 50%;
+}
+
+.e,
+.g {
+    float: left;
+}
+
+.f,
+.h {
+    float: right;
+}
+
+.i {
+    clear: both;
+    padding: 10% 0;
+}
+/*  starting second layout for desktop view */
+
+@media only screen and (min-width:768px) {
+    body>* {
+        background-color: green;
+        margin: 0;
+        text-align: center;
+        box-sizing: inherit;
     }
-    #b {
-        height: 37.5rem;
-        grid-column: 1/2;
+    .a {
+        height: 100px;
+        padding: 4.5% 0!important;
     }
-    #c {
-        height: 12.5rem;
-        grid-column: 2/4;
+    .b {
+        width: 200px;
+        float: left;
+        height: 600px;
+        padding: 30% 0;
     }
-    #d {
-        height: 12.5rem;
-        grid-column: 4/6;
+    .c {
+        float: left;
+        width: 380px;
+        height: 200px;
     }
-    #e {
-        height: 15.625rem;
-        width: 100%;
-        grid-column-start: 2;
+    .d {
+        float: left;
+        width: 380px;
+        height: 200px;
     }
-    #f {
-        height: 15.625rem;
-        width: 100%;
-        grid-column-start: 3;
+    .e,
+    .f,
+    .g,
+    .h {
+        height: 250px;
+        padding: 12.5% 0;
+        width: 190px;
+        float: left;
     }
-    #g {
-        height: 15.625rem;
-        width: 100%;
-        grid-column-start: 4;
-    }
-    #h {
-        height: 15.625rem;
-        width: 100%;
-        grid-column-start: 5;
-    }
-    #i {
-        height: 9.375rem;
-        width: 100%;
-        grid-column: 2 / span 6;
+    .i {
+        height: 150px;
+        padding: 6% 0;
+        width: 760px;
+        clear: none;
+        float: left;
     }
 }
